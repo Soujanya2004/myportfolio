@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: #e4b284;  
+}
+header{
+    background-color: #03254b;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #413e3e;
+    margin-top: 1.5rem;
+    
+  }
+  #footer{
+    background-color: #413e3e;
+    color: #dedada;
+    
+  }
+  .imagenew {
+    flex: 1;
+    margin-right: 30px; 
+    margin-left: 20px;
+  }
+  
+  .text {
+    color: #f9f9f9;
+    font-size: x-large;
+    
+
+  }
+ 
+  .imagenew, .text {
+      margin-right: 5rem;
+      width: 100%;
+      margin-bottom: 3rem;
+}
+.image{
+    height: 630px;
+    background-image: url("workspace.avif");
+    background-repeat: no-repeat;
+    background-size:1500px 800px;
+}
+#contact{
+    margin-top: 3rem;
+}
+.image-content{
+    margin-left: 50rem;
+    padding-top: 13rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+    font-size:large;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.title{
+    font-size: 5rem;
+}
+.p{
+    font-size: 3rem;
+}
+.container{
+    color: #f2dbdb;
+    padding-top: 60px;
+}
+.card{
+    margin-top: 1rem;
+}
+.card:hover{
+    border-color: #413e3e;
+    border-width: 0.5rem;
+}
+
+.bar1{
+    height: 60px;
+    background-color: #dedada;
+    color: #0c0c0c;
+    text-align: center;
+    font-weight: 100;
+    font-size: xx-large;
+    padding-bottom: 1.5rem;
+}
+button {
+    padding: 10px;
+    background-color: #03254b;;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
